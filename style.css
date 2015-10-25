@@ -41,7 +41,7 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
-    background: #FFF;
+    background: #B21663;
     background-image: url('img/hexellence.png');
     color: #2c2c2c;
     /*font-family: 'quicksand', Arial, sans-serif;*/
@@ -394,6 +394,7 @@ pre {
     -moz-transition: stroke-dashoffset 0.4s 0.3s;
     transition: stroke-dashoffset 0.4s 0.3s;
 }
+
 .cd-nav {
     position: fixed;
     z-index: 12;
@@ -1027,7 +1028,16 @@ nav[role="navigation"] {
 .site-footer a,
 .site-footer a:visited { color: #2c2c2c; }
 .site-footer a:hover { color: #B8AA96; }
-
+.footer-icons a:nth-child(2){
+    padding-left: 10px;
+}
+.footer-icons  a{
+  display: inline-block;
+  height: 54px;
+}
+.footer-icons object{
+  pointer-events: none;
+}
 /*=================================*/
 /* Media Queries
 /*=================================*/
