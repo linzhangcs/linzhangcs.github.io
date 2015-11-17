@@ -1,13 +1,13 @@
 jQuery(document).ready(function($){
 	var isLateralNavAnimating = false;
-	
+
 	//open/close lateral navigation
 	$('.cd-nav-trigger').on('click', function(event){
 		event.preventDefault();
-		//stop if nav animation is running 
+		//stop if nav animation is running
 		if( !isLateralNavAnimating ) {
-			if($(this).parents('.csstransitions').length > 0 ) isLateralNavAnimating = true; 
-			
+			if($(this).parents('.csstransitions').length > 0 ) isLateralNavAnimating = true;
+
 			$('body').toggleClass('navigation-is-open');
 			$('.cd-navigation-wrapper').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
 				//animation is over
@@ -54,5 +54,13 @@ jQuery(document).ready(function($){
         })
     })
 }(window.jQuery);
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
- 
+  ga('create', 'UA-70242149-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
