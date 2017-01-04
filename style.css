@@ -44,8 +44,7 @@ body {
     background: #ffffff;
     background-image: url('img/hexellence.png');
     color: #2c2c2c;
-    /*font-family: 'quicksand', Arial, sans-serif;*/
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'Cormorant', sans-serif;
     font-size: 18px;
     /*line-height: 1.65;*/
     letter-spacing: 4px;
@@ -198,6 +197,7 @@ pre {
 }
 .site-title a {
     position: fixed;
+    background: #FFFFFF;
 }
 .site-title a,
 .site-title a:visited { color: #B8AA96; }
@@ -541,6 +541,10 @@ h3.section{
 .project .image img{
   padding-bottom: 25px;
 }
+.project-assets iframe{
+  width: 100%;
+  height: 340px;
+}
 .projects-feed {
     clear: both;
 }
@@ -607,7 +611,7 @@ h3.section{
 .thumbnail-title {
     color: #2c2c2c;
     /*font-family: 'Righteous',helvetica,sans-serif;*/
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'Cormorant Garamond', sans-serif;
     font-size: 21px;
     margin: 0 auto 10px auto;
     text-align: left;
@@ -951,12 +955,13 @@ nav[role="navigation"] {
     width: 100%;
 }
 .page-desc p{
-  font-size: 1.0em;
+  font-size: 0.8em;
   letter-spacing: 1.5px;
+  font-family: 'Lato', Arial, sans-serif;
 }
 .page-desc a{
-  font-family: 'Cabin', Arial, sans-serif;
-  font-size: 1.2em;
+  font-family: 'Cormorant', Arial, serif;
+  font-size: 1.5em;
   letter-spacing: 0px;
 }
 .page-desc img {
@@ -1122,7 +1127,10 @@ nav[role="navigation"] {
     .site-tagline p {
         font-size: 36px;
     }
-    .project-assets div.image img{
+    .project-assets iframe{
+      height: 640px;
+    }
+    .project-assets div.image img, .project-assets iframe{
       width:80%;
     }
     /*===== Navigations =====*/
@@ -1224,7 +1232,7 @@ nav[role="navigation"] {
         padding-left: 9.5%;
     }
     .thumbnail-title {
-        font-size: 28px;
+        font-size: 24px;
     }
     .is_page .projects-feed { margin-top: 150px; }
     .projects-feed .project { float: left; }
@@ -1375,9 +1383,12 @@ nav[role="navigation"] {
       padding-left: 17.5%;
     }
     .thumbnail-title {
-        font-size: 36px;
+        font-size: 28px;
     }
-    .project-assets div.image img{
+    .project-assets iframe{
+      height: 640px;
+    }
+    .project-assets div.image img, .project-assets iframe{
       width:65%;
     }
     /*===== Paginations =====*/
