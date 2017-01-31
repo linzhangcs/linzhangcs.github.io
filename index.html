@@ -1,274 +1,57 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Lin Zhang</title>
+---
+layout: default
+---
+<section class="previews">
+  <div>
+    {% for post in paginator.posts %}
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ site.baseurl }}/assets/img/posts/{{ post.image }}');"></figure>
+    {% endfor %}
+    <div class="previews__container">
+      <span>welcome to</span>
+      <h1>{{ site.title }}</h1>
+    </div>
+  </div>
 
-    <link rel="stylesheet" href="style.css" media="screen" />
-    <link href='https://fonts.googleapis.com/css?family=Montserrat|Cormorant+Garamond:500|Cabin|Lato' rel='stylesheet' type='text/css'>
-    <script src="scripts/modernizr.js"></script>
-</head>
+  <div>
+    <header>
+      <ul class="tabs">
+        <li class="tabs__item">Projects</li>
+        <!-- <li class="tabs__item">Categories</li> -->
+        <li class="tabs__item">About</li>
+      </ul>
+    </header>
 
-<body>
-    <a href="#cd-nav" class="cd-nav-trigger" title="menu">Menu
-        <span class="cd-nav-icon"></span>
-        <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
-            <circle fill="transparent" stroke="#c03e7e" stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-        </svg>
-    </a>
+    <div class="tab">
+      <ul itemscope itemtype="http://schema.org/Blog">
+        {% for post in paginator.posts %}
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
 
-    <div id="cd-nav" class="cd-nav">
-        <div class="cd-navigation-wrapper">
-            <div class="cd-half-block">
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+          {% endif %}
 
-                <nav>
-                    <ul class="cd-primary-nav">
-                        <li><a href="index.html" class="selected">Work</a></li>
-                        <li><a href="profile.html">Profile</a></li>
-                    </ul>
-                </nav>
-            </div><!-- .cd-half-block -->
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+          {% endif %}
+        </div>
+      {% endif %}
 
-            <div class="cd-half-block">
-                <address>
-                    <ul class="cd-contact-info">
-                        <li><a href="mailto:lin.zhang.cs@gmail.com">Email Me</a></li>
-                        <!-- <li><a href="http://linzhangslife.blogspot.com/" target="_blank">Blog</a></li> -->
-                        <li><a href="https://github.com/linzhangcs" target="_blank"> Github </a></li>
-                    </ul>
-                    <!--<ul class="cd-contact-socials">
-                        <li><a href="http://linzhangslife.blogspot.com/" target="_blank">Blog</a></li>
-                        <li><a href="https://github.com/linzhangcs" target="_blank"> Github </a></li>
-                    </ul>-->
-                </address>
-            </div> <!-- .cd-half-block -->
-        </div> <!-- .cd-navigation-wrapper -->
-    </div> <!-- .cd-nav -->
-
-    <div class="site-container">
-
-        <header class="site-header cf">
-            <div class="site-title"><a href="index.html">Hey friend!</a></div>
-            <div class="cf"></div>
-            <div class="site-tagline">
-                <p>Hello, my name is <strong><a href="profile.html">Lin Zhang</a></strong>. I am a developer working in SLC, UT.<br/>
-                I want to be a <a href="http://www.technologyreview.com/article/400230/the-south-face-of-the-mountain/" target="_blank"><strong>humanist technologist</strong></a>.</p>
-            </div>
-
-        </header><!-- / .site-header -->
-
-        <section class="site-content" id="projects">
-            <div class="projects-feed cf">
-              <article class="project cf">
-                  <a href="portfolio-item-kellybag.html" title="Kelly Bag">
-                      <div class="thumb">
-                          <div data-picture data-alt="">
-                              <div data-src="img/paperkelly.png"></div>
-
-                              <!--[if (lt IE 9) & (!IEMobile)]>
-                              <div data-src="img/octanner.jpg"></div>
-                              <![endif]-->
-
-                              <noscript>
-                                  <img src="img/paperkelly.png" alt="" />
-                              </noscript>
-                          </div>
-                      </div>
-
-                      <div class="project-content-container">
-                          <div class="project-content">
-                              <div class="table">
-                                  <div class="table-cell">
-                                      <h2 class="thumbnail-title">Paper Hermes Bag</h2>
-                                      <p class="thumbnail-description">Paper bags to Hermes Kelly Bag - Paper + Hair</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="overlay"></div>
-                  </a>
-              </article>
-
-              <!-- <article class="project cf">
-                  <a href="portfolio-item-mindful-shopping.html" title="Mindful Shopping">
-                      <div class="thumb">
-                          <div data-picture data-alt="">
-                              <div data-src="img/octanner.png"></div>
-
-                              <noscript>
-                                  <img src="img/octanner.png" alt="" />
-                              </noscript>
-                          </div>
-                      </div>
-
-                      <div class="project-content-container">
-                          <div class="project-content">
-                              <div class="table">
-                                  <div class="table-cell">
-                                      <h2 class="thumbnail-title">Mindful Shopping</h2>
-                                      <p class="thumbnail-description">Chrome Plugin - JS + CSS</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="overlay"></div>
-                  </a>
-              </article> -->
-
-                <article class="project cf">
-                    <a href="portfolio-item-octanner.html" title="OC Tanner">
-                        <div class="thumb">
-                            <div data-picture data-alt="">
-                                <div data-src="img/octanner.png"></div>
-
-                                <!--[if (lt IE 9) & (!IEMobile)]>
-                                <div data-src="img/octanner.jpg"></div>
-                                <![endif]-->
-
-                                <noscript>
-                                    <img src="img/octanner.png" alt="" />
-                                </noscript>
-                            </div>
-                        </div>
-
-                        <div class="project-content-container">
-                            <div class="project-content">
-                                <div class="table">
-                                    <div class="table-cell">
-                                        <h2 class="thumbnail-title">OC Tanner</h2>
-
-                                        <p class="thumbnail-description">Web site - Jekyll</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="overlay"></div>
-                    </a>
-                </article>
-                <article class="project cf">
-                    <a href="portfolio-item-zd.html" title="Zions Direct">
-                        <div class="thumb">
-                            <div data-picture data-alt="">
-                                <div data-src="img/zionsdirect.png"></div>
-
-                                <!--[if (lt IE 9) & (!IEMobile)]>
-                                <div data-src="img/zionsdirect.png"></div>
-                                <![endif]-->
-
-                                <noscript>
-                                    <img src="img/zionsdirect.png" alt="" />
-                                </noscript>
-                            </div>
-                        </div>
-
-                        <div class="project-content-container">
-                            <div class="project-content">
-                                <div class="table">
-                                    <div class="table-cell">
-                                        <h2 class="thumbnail-title">Zions Direct</h2>
-                                        <p class="thumbnail-description">Web site - Middleman</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="overlay"></div>
-                    </a>
-                </article>
-                <article class="project cf">
-                    <a href="portfolio-item-zdtv.html" title="Zions Direct TV App">
-                        <div class="thumb">
-                            <div data-picture data-alt="">
-                                <div data-src="img/zdtv.png"></div>
-
-                                <!--[if (lt IE 9) & (!IEMobile)]>
-                                <div data-src="img/zdtv.png"></div>
-                                <![endif]-->
-
-                                <noscript>
-                                    <img src="img/zdtv.png" alt="" />
-                                </noscript>
-                            </div>
-                        </div>
-
-                        <div class="project-content-container">
-                            <div class="project-content">
-                                <div class="table">
-                                    <div class="table-cell">
-                                        <h2 class="thumbnail-title">Zions Direct TV App</h2>
-                                        <p class="thumbnail-description">Google TV App - Android</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="overlay"></div>
-                    </a>
-                </article>
-                <!-- <article class="project cf">
-                    <a href="portfolio-item-video.html" title="video">
-                        <div class="thumb">
-                            <div data-picture data-alt="">
-                                <div data-src="img/zdtv.png"></div>
-
-                                <noscript>
-                                    <img src="img/zdtv.png" alt="" />
-                                </noscript>
-                            </div>
-                        </div>
-
-                        <div class="project-content-container">
-                            <div class="project-content">
-                                <div class="table">
-                                    <div class="table-cell">
-                                        <h2 class="thumbnail-title">This Damn Economy</h2>
-                                        <p class="thumbnail-description">3D Modeling - Hammer</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="overlay"></div>
-                    </a>
-                </article> -->
-            <!--END .projects-feed-->
-            </div>
-
-        <!--END .site-content-->
-        </section>
-
-         <footer class="site-footer cf">
-            <div class="footer-icons">
-              <a href="mailto:lin.zhang.cs@gmail.com" target="_blank" title="email me">
-                  <object type="image/svg+xml" data="img/email.svg"></object>
-              </a>
-              <!--<a href="http://linzhangslife.blogspot.com/" target="_blank">
-                  <object type="image/svg+xml" data="img/blogger.svg"></object>
-              </a>-->
-              <a href="https://github.com/linzhangcs" target="_blank" title="github">
-                  <object type="image/svg+xml" data="img/github.svg"></object>
-              </a>
-            </div>
-            <!--<nav class="languages" role="navigation">
-              <ul>
-                <li class="active">EN</li>
-              </ul>
-            </nav>-->
-        </footer>
-    <!--END .site-container-->
+      {% include archive-link.html %}
     </div>
 
-    <script src="scripts/jquery-2.1.4.min.js"></script>
-    <script src="scripts/jquery.fitvids.js"></script>
-    <script src="scripts/jquery.imagesloaded.min.js"></script>
-    <script src="scripts/main.js"></script>
+    <!-- {% include categories-tab.html %} -->
+    {% include about-tab.html %}
+  </div>
 
-
-</body>
-</html>
+</section>
