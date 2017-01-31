@@ -11,7 +11,7 @@ youtubeId: PYW_0mRp_Oc
 videoId: WV3obVgGjeQ
 ---
 ### Role: Animator, 3D modeler
-This animation is made with the Half Life 2 Episode 2 Game engine. For the background scenes and 3D model's expression, our team used Hammer and Faceposer respectively. The post production editing is done in Adobe Premiere Pro. 
+This animation is made with the Half Life 2 Episode 2 Game engine. For the background scenes and 3D model's expression, our team used Hammer and Faceposer respectively. Post-production editing is done in Adobe Premiere Pro. 
 
 ### Storyboard animatic
 {% include youtubePlayer.html id=page.youtubeId %}
