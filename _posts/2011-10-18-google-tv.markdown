@@ -15,7 +15,7 @@ This app combines the web browsing and tv viewing experience into one. We achiev
 
 ### App Mode
 ___
-![Main Nav]({{ site.baseurl }}/assets/img/posts/appModeVideosMainnavActive.jpg)
+![Main Nav]({{ site.baseurl }}/assets/img/posts/appModeVideosMainNavActive.jpg)
 ![News List]({{ site.baseurl }}/assets/img/posts/appModeNewsList.jpg)
 ![News Details]({{ site.baseurl }}/assets/img/posts/appModeNewsDetails.jpg)
 ![Auction Details]({{ site.baseurl }}/assets/img/posts/appModeAuctionDetailsActive.jpg)
