@@ -8,13 +8,13 @@ google_analytics:
 # SEO settings
 title: Lin's Portfolio
 description: Lin Zhang's (SLC, UT) website. Lin's past projects
-url: "https://linzhangcs.github.io/hi"
+url: "https://linzhangcs.github.io/"
 twitter_username:
 default_img:
 
 # Profile settings
 name: Lin Zhang
-profile_img: http://linzhangcs.github.io/img/selfielins.jpg
+profile_img: http://linzhangcs.github.io/assets/img/selfielins.jpg
 profile: Lin likes the Internet so she became a developer. Thanks for taking a look at her portfolio.
 social:
   github: http://github.com/linzhangcs
