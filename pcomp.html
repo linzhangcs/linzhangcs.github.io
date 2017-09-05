@@ -1,0 +1,27 @@
+---
+layout: page
+title: PComp
+permalink: /pcomp/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Physical Computing</h1>
+          <p>Looking away from the limitations of the mouse, keyboard and monitor interface of today's computers, and start instead with the expressive capabilities of the human body</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.categories.pcomp %}
+    <div class="post-area">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+      <p class="post-date">{{ post.date | date_to_long_string }}</p>
+      <p>
+        {{ post.content | strip_html | truncatewords: 50 }}
+      </p>
+    </div>
+{% endfor %}
