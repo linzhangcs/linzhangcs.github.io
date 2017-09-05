@@ -1,36 +1,37 @@
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+
 # Site settings
-email: lin.zhang.cs@gmail.com
-baseurl:
-paginate: 5
-paginate_path: "/blog/page-:num"
-google_analytics:
-
-# SEO settings
-title: Lin's Portfolio
-description: Lin Zhang's (SLC, UT) website. Lin's past projects
-url: "https://linzhangcs.github.io/"
-twitter_username:
-default_img:
-
-# Profile settings
-name: Lin Zhang
-profile_img: http://linzhangcs.github.io/assets/img/selfielins.jpg
-profile: Lin likes the Internet so she became a developer. Thanks for taking a look at her portfolio.
-social:
-  github: http://github.com/linzhangcs
-  linkedin: https://www.linkedin.com/in/lin-zhang-7453b639
-  # facebook: https://www.facebook.com/lin.zhang.796
-  instagram: https://www.instagram.com/heartsmiles
+title: Lin Zhang's ITP Blog
+subtitle: "Classes and Projects"
+url: "http://linzhangcs.github.io" # http://luminousrubyist.github.io the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
 
 # Build settings
-include: ["_categories"]
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
 
-# Sass
-sass:
-  style: compressed
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
 
-# Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
