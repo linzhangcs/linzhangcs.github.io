@@ -8,7 +8,7 @@ layout: fab
 category: fab
 ---
 
-For the flashlight project, I wanted to make a flashlight that is lightweight and easy to carry. With that goal in mind, I gravitated towards making small scale object and using softer materials. I came up with ideas like keychain made of cloth, pen flashlight, and paper lantern flashlight.
+For the flashlight project, I wanted to make a flashlight that is lightweight and easy to carry. With that goal in mind, I gravitated towards making small scale object and using soft materials. I came up with ideas like keychain made of cloth, pen flashlight, and paper lantern flashlight.
 
 In the end, I decided on making a ribbon bracelet flashlight. Partially because I found a roll of ribbon and several electric candle light on the junk shelf!
 
@@ -23,7 +23,7 @@ I learned to make a basic ribbon bracelet from watching youtube videos.
 
 ![ribbon bracelet](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/flashlight/ribbon2.jpg?raw=true)
 
-Once I have the bracelet, I thought about the number of LEDs to use and played around with the placement. I decided to use three LEDs and have them in the middle. After I made the design decisions, I worked on soldering the LED to resistors. I also tested them to make sure they were properly soldered.
+Once I have the bracelet, I thought about the number of LEDs to use, and played around with the placement. I decided to use three LEDs and have them in the middle. After I made the design decisions, I worked on soldering the LED to resistors. I also tested them to make sure they were properly soldered.
 
 ![LED with resistor](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/flashlight/IMG_3346.JPG?raw=true)
 
@@ -43,7 +43,7 @@ Once the three LEDs are connected, I made a battery holder. I attached the holde
 
 ## User Testing
 
-Once everything is put together, I wore my bracelet flashlight home as a way to test how well it worked. It is very lightweight and pretty easy to turn on and off. The light it offers works well in the dark.
+Once everything was put together, I wore my bracelet flashlight home as a way to test how well it worked. It is very lightweight and pretty easy to turn on and off. The light it offers works well in the dark.
 
 ![User test](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/flashlight/IMG_3421.JPG?raw=true)
 ![User test](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/flashlight/IMG_3423.JPG?raw=true)
