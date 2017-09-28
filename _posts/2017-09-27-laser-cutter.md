@@ -36,7 +36,7 @@ After I cut out the box design, folding it become a problem, because I didn’t 
 
 ![design fold](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automata/IMG_3817.JPG?raw=true)
 
-I tried to resolve it by using finger joints. I made changes in Vectorworks. Although importing file is not an issue anymore, the scale of the objects would change during the format
+I tried to resolve it by using finger joints. I made changes in Vectorworks. Although importing file is not an issue anymore, the scale of the objects would change during importing.
 
 ![Vectorworks](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automata/vectorworks2.png?raw=true)
 
