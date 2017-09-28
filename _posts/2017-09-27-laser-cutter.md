@@ -40,7 +40,7 @@ I tried to resolve it by using finger joints. I made changes in Vectorworks. Alt
 
 ![Vectorworks](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automata/vectorworks2.png?raw=true)
 
-![design joints](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automata/IMG_3765.JPG?raw=true
+![design joints](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automata/IMG_3765.JPG?raw=true)
 
 This is the results I have.
 
@@ -48,4 +48,4 @@ This is the results I have.
 
 I did not finish my goal this week. I feel disappointed. I also learned I have to plan my time and projects with a realistic standard. I plan to try more way to laser cut a box or an enclosure for the automata. Also I will spend time to think and design the automata for cardboard, rather than translate a design meant for paper to cardboard.
 
-To be continued. 
+To be continued.
