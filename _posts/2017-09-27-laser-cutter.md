@@ -42,7 +42,7 @@ I tried to resolve it by using finger joints. I made changes in Vectorworks. Alt
 
 ![design joints](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automata/IMG_3765.JPG?raw=true)
 
-This is the results I have.
+This is what I have right now.
 
 ## Plan To Finish
 
