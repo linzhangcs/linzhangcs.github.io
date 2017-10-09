@@ -49,7 +49,7 @@ I did not finish my goal this week. I feel disappointed. I also learned I have t
 
 To be continued.
 
- ## Week Two
+## Week Two
 
 For this week, I want to finish the cardboard automata. Instead of using a lot of finger joints. I decided to use 4 deep finger joints to build the box and using 4 slots for adding the base and the top of the box. Also by adding 4 holes for screws, I can secure the box without glue.
 
