@@ -1,0 +1,37 @@
+---
+title: Jumping Cat Automata
+subtitle: Automata with servo
+date: 2017-10-03
+author: Lin Zhang
+layout: post
+comments: true
+category: pcomp
+---
+During our 2nd class, we learned about circuit and interesting ways to make a switch. For project, I want to repurpose an existing things that can be easily understood as a switch. I decided to make a zipper switch. It already being used as a way to open and close cloth or bags. It is intuitive for people to repurpose it as a switch. I found a metal zipper with plastic zipper teeth. I tried several ways to make the plastic zipper teeth conductive.
+
+## Method One - copper tape:
+
+Because the shop supplies copper tape. It would be an easy way to make a circuit. I put the copper tape inside of the bag and right underneath the zipper teeth, and have 2 stripes sticking out, so when I close the the zipper, the stripes will make contact and complete the circuit. The plan worked; however, it only works for a limited number of times and it’s not consist.
+I see a problem with that approach and wanted a more reliable method.
+
+![copper tape](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/IMG_3722.JPG?raw=true)
+
+![copper tape](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/IMG_3686.JPG?raw=true)
+
+## Method Two - conductive thread
+
+The soft lab supplies conductive thread, and I thought it would give my zipper a consistent contact. I sew the conductive thread at the end of the zipper, so it would connect the circuit when zipped up. Unfortunately, after several tries, the thread is not give enough contact
+
+![conductive thread](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/IMG_3719.JPG?raw=true)
+
+![conductive thread](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/IMG_3720.JPG?raw=true)
+
+![conductive](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/IMG_3680.JPG?raw=true)
+
+![conductive thread](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/IMG_3687.JPG?raw=true)
+
+## Method Three -  wire
+
+After trying for a while and not getting a consistent contact, I asked for help and got the idea to connect the wire directly to the zipper. It’s the most consistent!
+
+![zipper](https://j.gifs.com/0gvL1N.gif)
