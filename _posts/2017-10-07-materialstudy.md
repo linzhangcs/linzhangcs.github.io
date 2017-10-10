@@ -8,10 +8,12 @@ layout: fab
 category: fab
 ---
 
-![paper automata](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automataPartTwo/IMG_3868.JPG?raw=true)
+The inspiration for this two material project is the kinetic ring made by South Korean artist [Dukno Yoon](http://art.ksu.edu/people/faculty/yoon.html).
 
-![paper automata](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automataPartTwo/IMG_3871.JPG?raw=true)
+![kinetic ring](http://www.designersparty.com/attach/1/1298694444.jpg)
 
-![paper automata](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automataPartTwo/IMG_3876.JPG?raw=true)
+![kinetic ring](http://www.designersparty.com/attach/1/1045346985.gif)
 
-![closure number one](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/automataPartTwo/IMG_3880.JPG?raw=true)
+## Making Process
+
+Although Dukno made his ring using one type of metal, I want to see how different metal would look together. I got steel and brass wire, brass tubes, and feather.

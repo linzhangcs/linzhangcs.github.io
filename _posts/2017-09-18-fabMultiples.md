@@ -8,7 +8,7 @@ layout: fab
 category: fab
 ---
 
-The inspiration of my multiples assignment is an illustration by Japanese artist Aoki Tetsuo. It is a woodblock print. The print depicts a line of people leaning forward. I want to translate the two dimensional print into a three dimensional object that still resembles the original print. I want the print to be more tangible, so I can rearrange the print in real life. And arrangement of the human silhouettes can convey a different meaning and feeling, I thought that is interesting and fun to explore.
+The inspiration for my multiples assignment is an illustration by Japanese artist Aoki Tetsuo. It is a woodblock print. The print depicts a line of people leaning forward. I want to translate the two dimensional print into a three dimensional object that still resembles the original print. I want the print to be more tangible, so I can rearrange the print in real life. And arrangement of the human silhouettes can convey a different meaning and feeling, I thought that is interesting and fun to explore.
 
 ![ Aoki Tetsuo](http://4.bp.blogspot.com/-b0IEYDU1S_U/TWBtvegSsaI/AAAAAAAAFF8/W2DOBM3yZU8/s1600/iiiinspired+_+Jennifer+Warburton+flickr+_+AOKI+Tetsuo+2005+People+IMG_4587.jpg)
 
