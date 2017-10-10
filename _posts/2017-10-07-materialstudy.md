@@ -8,7 +8,7 @@ layout: fab
 category: fab
 ---
 
-The inspiration for this two material project is the kinetic ring made by South Korean artist [Dukno Yoon](http://art.ksu.edu/people/faculty/yoon.html).
+The inspiration for my two material project is the kinetic ring made by South Korean artist [Dukno Yoon](http://art.ksu.edu/people/faculty/yoon.html).
 
 ![kinetic ring](http://www.designersparty.com/attach/1/1298694444.jpg)
 
@@ -17,3 +17,23 @@ The inspiration for this two material project is the kinetic ring made by South 
 ## Making Process
 
 Although Dukno made his ring using one type of metal, I want to see how different metal would look together. I got steel and brass wire, brass tubes, and feather.
+
+![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4002.JPG?raw=true)
+
+![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4005.JPG?raw=true)
+
+![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4011.JPG?raw=true)
+
+![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4007.JPG?raw=true)
+
+![hot glue connections](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4019.JPG?raw=true)
+
+![hot glue connections](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4022.JPG?raw=true)
+
+Using hot glue to secure the connections looks too bulky, so I tried to solder the connections. After trying for a while, I found out the melting point of steel is too high for it to work with what I have.
+
+![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4013.JPG?raw=true)
+
+![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4016.JPG?raw=true)
+
+## Day Two
