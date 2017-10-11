@@ -54,5 +54,6 @@ I found new material - copper. It can be soldered at lower temperature.
 
 
 ## Day Three
+
 ![joints](https://media.giphy.com/media/xUNd9ZJA8YgdFxhl8k/giphy.gif)
 ![joints](https://media.giphy.com/media/l4Epkfy3IEJUisxoI/giphy.gif)
