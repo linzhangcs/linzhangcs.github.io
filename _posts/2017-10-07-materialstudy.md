@@ -51,3 +51,6 @@ I found new material - copper. It can be soldered at lower temperature.
 ![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4077.JPG?raw=true)
 
 ![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4080.JPG?raw=true)
+
+
+## Day Three
