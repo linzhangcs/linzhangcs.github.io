@@ -55,5 +55,24 @@ I found new material - copper. It can be soldered at lower temperature.
 
 ## Day Three
 
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4111.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4112.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4113.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4115.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4122.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4123.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4120.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4126.JPG)
+
+![solder](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/fab/twoMaterials/IMG_4129.JPG)
+
 ![joints](https://media.giphy.com/media/xUNd9ZJA8YgdFxhl8k/giphy.gif)
+
 ![joints](https://media.giphy.com/media/l4Epkfy3IEJUisxoI/giphy.gif)
