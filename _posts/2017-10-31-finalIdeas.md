@@ -15,7 +15,7 @@ The best way to achieve that in my opinion is to make a hybrid project, meaning 
 I am a big fan of Dance Dance Revolution, because it makes the player uses his / her whole body to move and the instruction changes base on the music, so it is also stimulating to the mind. It engages the player's body and mind in motion. However, DDR involves an interface that a person has to learn how to use. I want to make the game self-explanatory. So the simplest for me is to turn the common game of The Floor is Lava into a digital game.
 
 I researched into projects that are relevant to this idea:
-
+## The floor is lava
 
 ## Path
 ![floor interaction](https://i.pinimg.com/564x/58/f2/8e/58f28ed508166acfc2acaad24526587a.jpg)
@@ -46,3 +46,19 @@ Seekway high definition interactive led floor
 
 ![projection](https://i.pinimg.com/564x/84/47/86/844786cfb84ee1434499e56e667c1acc.jpg)
 A sea of flowers magically blooms and withers in this stunning digital installation by teamLab
+
+
+## Blow Up a Balloon
+
+![Balloon](http://www.simple-style.com/wp-content/uploads/2010/03/hans_hemmert_.jpg)
+
+<iframe src="https://player.vimeo.com/video/72070576" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/72070576">Cave aux Bulles (Bubbles&#039; Cellar)</a> from <a href="https://vimeo.com/guevaux2013">Gu&eacute;vaux 2013</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+## Nurture a shadow plant
+
+![sunflowers](https://i.pinimg.com/564x/e7/b8/2e/e7b82e10d69e5c1a84933d3af986a92a.jpg)
+
+![sunflowers](https://i.pinimg.com/564x/05/db/dc/05dbdcefad6f83af43a605f61191d01a.jpg)
+Ursula PALLA Sunflowers 2, 2014 videoinstallation Hambourg, galerie der Gegenwart
