@@ -14,7 +14,7 @@ The best way to achieve that in my opinion is to make a hybrid project, meaning 
 
 I am a big fan of Dance Dance Revolution, because it makes the player uses his / her whole body to move and the instruction changes base on the music, so it is also stimulating to the mind. It engages the player's body and mind in motion. However, DDR involves an interface that a person has to learn how to use. I want to make the game self-explanatory. So the simplest for me is to turn the common game of The Floor is Lava into a digital game.
 
-I researched into projects that relevant to this idea:
+I researched into projects that are relevant to this idea:
 
 
 ## Path
