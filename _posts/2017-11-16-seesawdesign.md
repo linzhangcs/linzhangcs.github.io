@@ -14,6 +14,10 @@ During this week, we decided on the overall design of the seesaw and broke down 
 
 <iframe src="https://drive.google.com/file/d/108ADOAc6dU-LfYsqT9PNZlgcVt9K_mse/preview" width="1000" height="700"></iframe>
 
+## 3D Prototype
+
+<iframe src="https://giphy.com/embed/26u4l3YukYHMZcHO8" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
 
 ## Components
 
