@@ -18,3 +18,7 @@ During this week, we decided on the overall design of the seesaw and broke down 
 ## Components
 
 ![Seesaw Design Components](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/pcomp/materials.jpg)
+
+## Bill of Components
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQChde0MWXjAfIIZR_NbdmfPkTGQuuNhbpSTQeRYee5r-KJOF6-wDBz2zb4Y05F5oPR25UBtr8kNwxH/pubhtml?widget=true&amp;headers=false" width="1000" height="700"></iframe>
