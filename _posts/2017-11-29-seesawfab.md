@@ -49,7 +49,11 @@ For cutting out the seats, I used CNC. The seemingly easy task took me multiples
 
 ![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5734.JPG?raw=true)
 
-![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5743.JPG?raw=true)
+![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5275.JPG?raw=true)
+
+![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5279.JPG?raw=true)
+
+![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5283.JPG?raw=true)
 
 ![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5754.JPG?raw=true)
 
@@ -60,3 +64,7 @@ For cutting out the seats, I used CNC. The seemingly easy task took me multiples
 ![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5819.JPG?raw=true)
 
 ![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5824.JPG?raw=true)
+
+![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5824.JPG?raw=true)
+
+![seesaw fab](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5866.JPG?raw=true)
