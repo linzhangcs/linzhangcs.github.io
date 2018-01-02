@@ -1,41 +1,57 @@
 ---
-layout: page
-title: Lin's ITP Blog
-permalink: /
+layout: default
 ---
+<section class="previews">
+  <div>
+    {% for post in paginator.posts %}
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ site.baseurl }}/assets/img/posts/{{ post.image }}');"></figure>
+    {% endfor %}
+    <div class="previews__container">
+      <span>welcome to</span>
+      <h1>{{ site.title }}</h1>
+    </div>
+  </div>
 
-<!-- Slider Start -->
-<section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp">Lin Zhang's ITP Life
-          <p class="animated fadeInUp">Blog of classes and projects at ITP</p>
+  <div>
+    <header>
+      <ul class="tabs">
+        <li class="tabs__item">Projects</li>
+        <!-- <li class="tabs__item">Categories</li> -->
+        <li class="tabs__item">About</li>
+      </ul>
+    </header>
+
+    <div class="tab">
+      <ul itemscope itemtype="http://schema.org/Blog">
+        {% for post in paginator.posts %}
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
+              <p class="preview__excerpt" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+          {% endif %}
+
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+          {% endif %}
         </div>
-      </div>
+      {% endif %}
+
+      {% include archive-link.html %}
     </div>
+
+    <!-- {% include categories-tab.html %} -->
+    {% include about-tab.html %}
   </div>
-</section>
-<!-- Wrapper Start -->
-<section id="intro">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2>About Me</h2>
-            <p> Hi, my name is Lin. I am originally from Jinan, China, and currently living in New York City.
-            </p>
-          </div>
-          <p>This is a blog about my life as a grad student at ITP. Thanks for visting my website :)</p>
-        </div>
-      </div><!-- .col-md-7 close -->
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-          <img src="img/sup.gif" alt="Hello there">
-        </div>
-      </div><!-- .col-md-5 close -->
-    </div>
-  </div>
+
 </section>

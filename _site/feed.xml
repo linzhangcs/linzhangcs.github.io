@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lin&#39;s Portfolio</title>
+    <description>Lin Zhang&#39;s (SLC, UT) website. Lin&#39;s past projects</description>
+    <link>https://linzhangcs.github.io//</link>
+    <atom:link href="https://linzhangcs.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Jan 2018 19:06:09 -0700</pubDate>
+    <lastBuildDate>Mon, 01 Jan 2018 19:06:09 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Paper Kelly Bag</title>
+        <description>&lt;h3 id=&quot;work-statement&quot;&gt;Work Statement&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;Designer handbag is a 11.5 billion industry. Evidently, A lot of people want and collect designer handbags.  The price of those bags range from hundreds to millions.
+The extravagant price tag triggers different reactions from people: disbelief, indifference, disgust, or desire.
+People also buy them for various reasons. Some people get them as gifts, some people get them as a token of their ideal lifestyle, and some people get them because they are the new it-bags.
+I am intrigued by the allure of owning such bags despite the mixed emotions and motivations. What is behind this appetite?
+This question directed me to experiment with the idea of creating one of most expensive and exclusive designer handbags out of disposable items.
+I decided to replicate the &lt;a href=&quot;https://en.wikipedia.org/wiki/Kelly_bag&quot;&gt;Hermes Kelly bag&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By selecting the Hermes Kelly bag, named after Grace Kelly and an early example of celebrity-favorite handbag, it magnifies the contrast between an original bag and a paper bag version.
+They contrast in raw material,  perceived value, and creative freedom. A popular choice of Hermes Kelly bag is 32 cm wide, made of Togo leather,
+which is made of baby calf skin with fine texture added on. It has a neutral color with gold hardware.
+The bag costs at least $25,000. If you do not mind waiting for a year or two for it, since it has a long waiting list.
+Compared to that, the paper version only costs $35.77 for tools and materials, not including my time.&lt;/p&gt;
+
+&lt;p&gt;Behind the hefty price tag, it is Hermes’ brand image and people’s high demand for it.
+Hermes is known for its high quality material selection, elegant design, and craftsmanship.
+All of their bags are still made by hand. Each bag is made by a single hermes leather artisan, who has to train for 18 months.
+Those highly-skilled yet unnoticed craftsmen help Hermes create its brand image.
+For the paper bag, I experimented with ways to soften and color coarse paper bags.
+Instead of using thread I chose to use my hair to sew the bag together. It is also disposable, and it embodies the mixed emotions that intrigued me.&lt;/p&gt;
+
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;iframe id=&quot;paperbag-viewer&quot; src=&quot;https://drive.google.com/file/d/0B2xC8fguQya_aDl2cHYyazRRRkU/preview&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;final-product&quot;&gt;Final product&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/kellybag1.jpg&quot; alt=&quot;Paper Kelly Bag&quot; /&gt;
+&lt;img src=&quot;/assets/img/posts/kellybag2.jpg&quot; alt=&quot;Paper Kelly Bag&quot; /&gt;
+&lt;img src=&quot;/assets/img/posts/kellybag3.jpg&quot; alt=&quot;Paper Kelly Bag&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Oct 2016 00:00:00 -0600</pubDate>
+        <link>https://linzhangcs.github.io//2016/10/31/paper-kelly-page/</link>
+        <guid isPermaLink="true">https://linzhangcs.github.io//2016/10/31/paper-kelly-page/</guid>
+        
+        
+        <category>Art</category>
+        
+      </item>
+    
+      <item>
+        <title>Zions Direct</title>
+        <description>&lt;h3 id=&quot;role-front-end-developer&quot;&gt;Role: Front-End Developer&lt;/h3&gt;
+
+&lt;p&gt;For this website, we used a static site generator framework called Middleman. The framework runs on Ruby on Rails and it is great for building front-end focused websites. The biggest challenge for this project was to organize and represent the content in a meaningful and clear way, so that it is intuitive to navigate. Our solution offers clear information and visual hierarchy to users. The underlying development follows this hierarchy.&lt;/p&gt;
+
+&lt;h3 id=&quot;desktop&quot;&gt;Desktop&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/zdHomepage.jpg&quot; alt=&quot;Zions Direct&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 31 Jan 2014 00:00:00 -0700</pubDate>
+        <link>https://linzhangcs.github.io//2014/01/31/zions-direct/</link>
+        <guid isPermaLink="true">https://linzhangcs.github.io//2014/01/31/zions-direct/</guid>
+        
+        
+        <category>Websites</category>
+        
+      </item>
+    
+      <item>
+        <title>OCTanner Website</title>
+        <description>&lt;h3 id=&quot;role-front-end-developer-view-websitehttpoctannerjewelerscom&quot;&gt;Role: Front-End Developer &lt;a href=&quot;http://octannerjewelers.com&quot;&gt;View Website&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This elegant website is developed using the static site generator &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;. It is a front-end only website, without any back-end components. We had a small development team, and I worked with two developers on this project who were off-site. I built the modules and templates. My favorite one is the &lt;a href=&quot;http://octannerjewelers.com/bridal/&quot;&gt;Bridal&lt;/a&gt; section.
+Individual pages on this website are built using different templates and each template contains multiple modules.&lt;/p&gt;
+
+&lt;h3 id=&quot;desktop&quot;&gt;Desktop&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/OCTanner_Homepage.jpg&quot; alt=&quot;Desktop&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mobile&quot;&gt;Mobile&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/OCTannerHomepageMobile.jpg&quot; alt=&quot;Mobile&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Aug 2013 00:00:00 -0600</pubDate>
+        <link>https://linzhangcs.github.io//2013/08/12/octanner/</link>
+        <guid isPermaLink="true">https://linzhangcs.github.io//2013/08/12/octanner/</guid>
+        
+        
+        <category>Websites</category>
+        
+      </item>
+    
+      <item>
+        <title>Zions Direct Google TV</title>
+        <description>&lt;h3 id=&quot;roleapplication-developer&quot;&gt;Role:Application Developer&lt;/h3&gt;
+&lt;p&gt;This is an android google tv application that delivers the latest investment news, educational videos and auction information.&lt;/p&gt;
+
+&lt;p&gt;This app combines the web browsing and tv viewing experience into one. We achieved this by providing users access to all the content in two modes: app mode and auto mode. The app mode is suited for active exploration, similar to searching for content online. In the auto mode, the app displays videos, news and auction information one item at the time to mimic the tv viewing experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;app-mode&quot;&gt;App Mode&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/appModeVideosMainNavActive.jpg&quot; alt=&quot;Main Nav&quot; /&gt;
+&lt;img src=&quot;/assets/img/posts/appModeNewsList.jpg&quot; alt=&quot;News List&quot; /&gt;
+&lt;img src=&quot;/assets/img/posts/appModeNewsDetails.jpg&quot; alt=&quot;News Details&quot; /&gt;
+&lt;img src=&quot;/assets/img/posts/appModeAuctionDetailsActive.jpg&quot; alt=&quot;Auction Details&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tv-mode&quot;&gt;TV Mode&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/tvModeVideo.jpg&quot; alt=&quot;TV mode Video&quot; /&gt;
+&lt;!-- ![TV mode News](/assets/img/posts/tvModeNews.jpg) --&gt;
+&lt;img src=&quot;/assets/img/posts/tvModeAuction.jpg&quot; alt=&quot;TV mode Auction&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Jan 2011 00:00:00 -0700</pubDate>
+        <link>https://linzhangcs.github.io//2011/01/31/google-tv/</link>
+        <guid isPermaLink="true">https://linzhangcs.github.io//2011/01/31/google-tv/</guid>
+        
+        
+        <category>App</category>
+        
+      </item>
+    
+      <item>
+        <title>This Damn Economy</title>
+        <description>&lt;h3 id=&quot;role-animator-3d-modeler&quot;&gt;Role: Animator, 3D modeler&lt;/h3&gt;
+&lt;p&gt;This animation is made with the Half Life 2 Episode 2 Game engine. For the background scenes and 3D model’s expression, our team used Hammer and Faceposer respectively. Post-production editing is done in Adobe Premiere Pro.&lt;/p&gt;
+
+&lt;h3 id=&quot;storyboard-animatic&quot;&gt;Storyboard animatic&lt;/h3&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PYW_0mRp_Oc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;final-video&quot;&gt;Final Video&lt;/h3&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/WV3obVgGjeQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>Sat, 02 May 2009 00:00:00 -0600</pubDate>
+        <link>https://linzhangcs.github.io//2009/05/02/this-damn-economy/</link>
+        <guid isPermaLink="true">https://linzhangcs.github.io//2009/05/02/this-damn-economy/</guid>
+        
+        
+        <category>Animation</category>
+        
+      </item>
+    
+  </channel>
+</rss>

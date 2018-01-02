@@ -115,6 +115,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
+  background: -webkit-linear-gradient(right, rgba(4, 18, 70, 0.3), rgba(25, 21, 2, 0.8));
   background: linear-gradient(to left, rgba(4, 18, 70, 0.3), rgba(25, 21, 2, 0.8));
   opacity: 0.8;
 }
@@ -244,12 +245,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #fff;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -377,6 +373,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
+  background: -webkit-linear-gradient(right, rgba(4, 18, 70, 0.3), rgba(25, 21, 2, 0.8));
   background: linear-gradient(to left, rgba(4, 18, 70, 0.3), rgba(25, 21, 2, 0.8));
   opacity: 0.8;
 }
@@ -445,9 +442,6 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
   -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 #portfolio-work .block .portfolio-menu ul li:hover:before {
@@ -464,9 +458,6 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #fff;
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
   -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 #portfolio-work .block .portfolio-contant ul li {
@@ -483,8 +474,6 @@ font header .navbar-default .navbar-nav li a:hover {
   position: absolute;
   top: 50%;
   -webkit-transform: translate(0%, -50%);
-  -moz-transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
 #portfolio-work .block .portfolio-contant ul li a {
@@ -517,7 +506,6 @@ font header .navbar-default .navbar-nav li a:hover {
   background: rgba(0, 0, 0, 0.9);
   opacity: 0;
   -webkit-transition: .3s all;
-  -o-transition: .3s all;
   transition: .3s all;
   text-align: center;
 }
@@ -526,11 +514,8 @@ font header .navbar-default .navbar-nav li a:hover {
   top: 50%;
   left: 10%;
   -webkit-transform: translate(0%, 50%);
-  -moz-transform: translate(0%, 50%);
-  -ms-transform: translate(0%, 50%);
   transform: translate(0%, 50%);
   -webkit-transition: .5s all;
-  -o-transition: .5s all;
   transition: .5s all;
 }
 #portfolio-work .block .mix {
@@ -625,6 +610,7 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
+  background: -webkit-linear-gradient(right, #928dab, #1f1c2c 70%);
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
   opacity: 0.8;
 }
