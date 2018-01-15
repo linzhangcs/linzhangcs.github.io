@@ -6,8 +6,8 @@ paginate_path: "/blog/page-:num"
 google_analytics:
 
 # SEO settings
-title: Lin's Portfolio
-description: Lin Zhang's (SLC, UT) website. Lin's past projects
+title: Linspace
+description: Lin Zhang's (SLC, UT) website. Lin's portfolio.
 url: "https://linzhangcs.github.io/"
 twitter_username:
 default_img:
