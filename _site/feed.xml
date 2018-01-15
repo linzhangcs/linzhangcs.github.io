@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lin&#39;s Portfolio</title>
-    <description>Lin Zhang&#39;s (SLC, UT) website. Lin&#39;s past projects</description>
+    <title>Linspace</title>
+    <description>Lin Zhang&#39;s (SLC, UT) website. Lin&#39;s portfolio.</description>
     <link>https://linzhangcs.github.io//</link>
     <atom:link href="https://linzhangcs.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Jan 2018 16:50:20 -0500</pubDate>
-    <lastBuildDate>Mon, 15 Jan 2018 16:50:20 -0500</lastBuildDate>
+    <pubDate>Mon, 15 Jan 2018 16:56:40 -0500</pubDate>
+    <lastBuildDate>Mon, 15 Jan 2018 16:56:40 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
