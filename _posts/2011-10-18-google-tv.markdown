@@ -8,7 +8,8 @@ description:
 image: tvModeVideo.jpg
 image-sm: zdtv.png
 ---
-### Role:Application Developer
+### Role: Application Developer
+
 This is an android google tv application that delivers the latest investment news, educational videos and auction information.
 
 This app combines the web browsing and tv viewing experience into one. We achieved this by providing users access to all the content in two modes: app mode and auto mode. The app mode is suited for active exploration, similar to searching for content online. In the auto mode, the app displays videos, news and auction information one item at the time to mimic the tv viewing experience.
