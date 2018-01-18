@@ -5,8 +5,8 @@
     <description>Lin Zhang&#39;s (SLC, UT) website. Lin&#39;s portfolio.</description>
     <link>https://linzhangcs.github.io//</link>
     <atom:link href="https://linzhangcs.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 17 Jan 2018 19:51:28 -0500</pubDate>
-    <lastBuildDate>Wed, 17 Jan 2018 19:51:28 -0500</lastBuildDate>
+    <pubDate>Thu, 18 Jan 2018 18:20:08 -0500</pubDate>
+    <lastBuildDate>Thu, 18 Jan 2018 18:20:08 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -31,7 +31,7 @@
 
 &lt;h4 id=&quot;play-testing&quot;&gt;Play Testing&lt;/h4&gt;
 
-&lt;p&gt;Before we built a full scale seesaw, we tested the concept of the project by conducting a play testing session of 30 users. My partner and I recorded and collected the user experience and feedback.&lt;/p&gt;
+&lt;p&gt;Before we build a full scale seesaw, we tested the project concept by conducting a play testing session of 30 users. My partner and I recorded and collected the user experience and feedback. The initial prototype utilizes items we had in the shop and used them as a representation of our project components and features. For example, the seesaw was represented by a broken workout bench and a small ladder. The LED lights on the sides of the bench are supposed to be LED strips.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/posts/prototype.jpg&quot; alt=&quot;prototype&quot; /&gt;&lt;/p&gt;
 
@@ -74,13 +74,19 @@
   &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/1361&quot;&gt;Pressure-Sensitive Conductive Sheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;physical-computing-1&quot;&gt;Physical Computing&lt;/h4&gt;
+&lt;h4 id=&quot;serial-comm&quot;&gt;Serial Comm&lt;/h4&gt;
 
-&lt;h3 id=&quot;final-product&quot;&gt;Final product&lt;/h3&gt;
+&lt;h3 id=&quot;final-product&quot;&gt;Final Product&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/posts/seesawfinal.jpg&quot; alt=&quot;seesaw final&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/posts/seesawplay.jpg&quot; alt=&quot;seesaw final&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;user-testing&quot;&gt;User Testing&lt;/h3&gt;
+
+&lt;h4 id=&quot;feedback&quot;&gt;feedback&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/feedback2.png&quot; alt=&quot;feedback&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 13 Dec 2017 00:00:00 -0500</pubDate>
         <link>https://linzhangcs.github.io//2017/12/13/seesaw/</link>
