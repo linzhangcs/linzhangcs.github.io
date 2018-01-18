@@ -27,12 +27,16 @@ See_._Saw is an interactive game brings people a collaborative experience in two
 
 ![user flow]({{ site.baseurl }}/assets/img/posts/userflow.jpg)
 
-#### User Testing
+#### Play Testing
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PT0EnjTUqtc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Before we built a full scale seesaw, we tested the concept of the project by conducting a play testing session of 30 users. My partner and I recorded and collected the user experience and feedback.
 
+![prototype]({{ site.baseurl }}/assets/img/posts/prototype.jpg)
+
+![feedback]({{ site.baseurl }}/assets/img/posts/feedback1.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JFiLjI0zXUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 ### Fabrication
 
@@ -67,6 +71,9 @@ We used the following sensors :
 
 * [Adafruit BNO055 Absolute Orientation Sensor](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview)
 * [Pressure-Sensitive Conductive Sheet](https://www.adafruit.com/product/1361)
+
+#### Physical Computing
+
 
 
 ### Final product
