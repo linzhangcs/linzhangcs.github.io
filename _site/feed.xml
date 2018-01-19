@@ -5,15 +5,15 @@
     <description>Lin Zhang&#39;s (SLC, UT) website. Lin&#39;s portfolio.</description>
     <link>https://linzhangcs.github.io//</link>
     <atom:link href="https://linzhangcs.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jan 2018 18:20:08 -0500</pubDate>
-    <lastBuildDate>Thu, 18 Jan 2018 18:20:08 -0500</lastBuildDate>
+    <pubDate>Fri, 19 Jan 2018 17:38:51 -0500</pubDate>
+    <lastBuildDate>Fri, 19 Jan 2018 17:38:51 -0500</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>See_._Saw : Interactive Seesaw Game</title>
         <description>&lt;h3 id=&quot;team-members&quot;&gt;Team Members&lt;/h3&gt;
 
-&lt;p&gt;Lin Zhang and &lt;a href=&quot;https://www.mengzhenxiao.com&quot;&gt;Mengzhen Xiao&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lin Zhang and &lt;a href=&quot;https://www.mengzhenxiao.com&quot; target=&quot;_blank&quot;&gt;Mengzhen Xiao&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;concept&quot;&gt;Concept&lt;/h3&gt;
 
@@ -38,6 +38,8 @@
 &lt;p&gt;&lt;img src=&quot;/assets/img/posts/feedback1.png&quot; alt=&quot;feedback&quot; /&gt;&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/JFiLjI0zXUg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Based on the feedback, we removed the lighting feature and came up with strategies to start the game.&lt;/p&gt;
 
 &lt;h3 id=&quot;fabrication&quot;&gt;Fabrication&lt;/h3&gt;
 
@@ -74,7 +76,42 @@
   &lt;li&gt;&lt;a href=&quot;https://www.adafruit.com/product/1361&quot;&gt;Pressure-Sensitive Conductive Sheet&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;serial-comm&quot;&gt;Serial Comm&lt;/h4&gt;
+&lt;h4 id=&quot;sensors-testing&quot;&gt;Sensors testing&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/pressuresensor.jpg&quot; alt=&quot;pressure sensor&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/bno5500.jpg&quot; alt=&quot;BNO sensor&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;serial-communicaton&quot;&gt;Serial Communicaton&lt;/h4&gt;
+
+&lt;script src=&quot;https://gist.github.com/linzhangcs/623ccec9589cc2475bb674f2a97986b3.js&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;brick-breaker---game-component&quot;&gt;Brick Breaker - Game Component&lt;/h3&gt;
+
+&lt;p&gt;Under the time constrict, we decided to build on an existing game. Our code is based on this &lt;a href=&quot;https://github.com/James-Hynes/Breakout&quot; target=&quot;_blank&quot;&gt;brick breaker github repo&lt;/a&gt;. We polished the game interface and add needed features to integrate it into our project.&lt;/p&gt;
+
+&lt;h4 id=&quot;interface-design&quot;&gt;Interface Design&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/gameInterface.jpeg&quot; alt=&quot;game interface&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;game-features&quot;&gt;Game Features&lt;/h4&gt;
+&lt;p&gt;From the the play testing feedback, we added features for a more enjoyable experience:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Serial Events - get data from pressure sensor and orientation sensor&lt;/li&gt;
+  &lt;li&gt;Countdown timer&lt;/li&gt;
+  &lt;li&gt;Game reset - redirect back to splash screen once a game ends&lt;/li&gt;
+  &lt;li&gt;Interface update - color, font, layout&lt;/li&gt;
+  &lt;li&gt;Splash screen&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;user-testing&quot;&gt;User Testing&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1-hPAmv1omY?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h4 id=&quot;feedback&quot;&gt;Feedback&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/feedback2.png&quot; alt=&quot;feedback&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;final-product&quot;&gt;Final Product&lt;/h3&gt;
 
@@ -82,11 +119,9 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/posts/seesawplay.jpg&quot; alt=&quot;seesaw final&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;user-testing&quot;&gt;User Testing&lt;/h3&gt;
+&lt;h3 id=&quot;user-testing---part-two&quot;&gt;User Testing - Part Two&lt;/h3&gt;
 
-&lt;h4 id=&quot;feedback&quot;&gt;feedback&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/feedback2.png&quot; alt=&quot;feedback&quot; /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8IrklmpCEk0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 13 Dec 2017 00:00:00 -0500</pubDate>
         <link>https://linzhangcs.github.io//2017/12/13/seesaw/</link>

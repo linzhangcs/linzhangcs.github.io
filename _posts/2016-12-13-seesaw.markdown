@@ -10,18 +10,19 @@ image-sm: user.JPG
 ---
 ### Team Members
 
-Lin Zhang and [Mengzhen Xiao](https://www.mengzhenxiao.com)
+Lin Zhang and <a href="https://www.mengzhenxiao.com" target="_blank">Mengzhen Xiao</a>
+
 
 ### Concept
 
 See_._Saw is an interactive game brings people a collaborative experience in two familiar childhood games: seesaw and brick breaker. The paddle in the brick breaker game moves based on the tilting direction of the seesaw. When it tilts down in one direction, the paddle will move along with the seesaw to that direction. The goal of combining the two games is to allow adults re-visit the fun experience of playing seesaw with a clear objective. Although games often are competitive, this is a game only can be play if both of the players are collaborative and moving together.
+
 
 ### Design Process
 
 #### Scenario
 
 ![scenairo]({{ site.baseurl }}/assets/img/posts/scenairo.jpg)
-
 
 #### User Flow
 
@@ -36,6 +37,9 @@ Before we build a full scale seesaw, we tested the project concept by conducting
 ![feedback]({{ site.baseurl }}/assets/img/posts/feedback1.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JFiLjI0zXUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Based on the feedback, we removed the lighting feature and came up with strategies to start the game.
+
 
 ### Fabrication
 
@@ -71,8 +75,40 @@ We used the following sensors :
 * [Adafruit BNO055 Absolute Orientation Sensor](https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview)
 * [Pressure-Sensitive Conductive Sheet](https://www.adafruit.com/product/1361)
 
-#### Serial Comm
+#### Sensors testing
 
+![pressure sensor]({{ site.baseurl }}/assets/img/posts/pressuresensor.jpg)
+
+![BNO sensor]({{ site.baseurl }}/assets/img/posts/bno5500.jpg)
+
+#### Serial Communicaton
+
+<script src="https://gist.github.com/linzhangcs/623ccec9589cc2475bb674f2a97986b3.js"></script>
+
+### Brick Breaker - Game Component
+
+Under the time constrict, we decided to build on an existing game. Our code is based on this <a href="https://github.com/James-Hynes/Breakout" target="_blank">brick breaker github repo</a>. We polished the game interface and add needed features to integrate it into our project.
+
+#### Interface Design
+
+![game interface]({{ site.baseurl }}/assets/img/posts/gameInterface.jpeg)
+
+#### Game Features
+From the the play testing feedback, we added features for a more enjoyable experience:
+
+* Serial Events - get data from pressure sensor and orientation sensor
+* Countdown timer
+* Game reset - redirect back to splash screen once a game ends
+* Interface update - color, font, layout
+* Splash screen
+
+### User Testing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1-hPAmv1omY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+#### Feedback
+
+![feedback]({{ site.baseurl }}/assets/img/posts/feedback2.png)
 
 ### Final Product
 
@@ -80,8 +116,6 @@ We used the following sensors :
 
 ![seesaw final]({{ site.baseurl }}/assets/img/posts/seesawplay.jpg)
 
-### User Testing
+### User Testing - Part Two
 
-#### feedback
-
-![feedback]({{ site.baseurl }}/assets/img/posts/feedback2.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8IrklmpCEk0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

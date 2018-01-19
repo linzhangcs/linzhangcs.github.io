@@ -34,7 +34,15 @@
   <link rel="alternate" type="application/rss+xml" title="Linspace" href="https://linzhangcs.github.io//feed.xml">
   <link rel="canonical" href="https://linzhangcs.github.io//2017/12/13/seesaw/">
 
-  
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70242149-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-70242149-1');
+  </script>
 </head>
 
 
@@ -64,7 +72,7 @@
   <section class="section-padding post" itemprop="articleBody">
     <h3 id="team-members">Team Members</h3>
 
-<p>Lin Zhang and <a href="https://www.mengzhenxiao.com">Mengzhen Xiao</a></p>
+<p>Lin Zhang and <a href="https://www.mengzhenxiao.com" target="_blank">Mengzhen Xiao</a></p>
 
 <h3 id="concept">Concept</h3>
 
@@ -89,6 +97,8 @@
 <p><img src="/assets/img/posts/feedback1.png" alt="feedback" /></p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JFiLjI0zXUg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Based on the feedback, we removed the lighting feature and came up with strategies to start the game.</p>
 
 <h3 id="fabrication">Fabrication</h3>
 
@@ -125,7 +135,42 @@
   <li><a href="https://www.adafruit.com/product/1361">Pressure-Sensitive Conductive Sheet</a></li>
 </ul>
 
-<h4 id="serial-comm">Serial Comm</h4>
+<h4 id="sensors-testing">Sensors testing</h4>
+
+<p><img src="/assets/img/posts/pressuresensor.jpg" alt="pressure sensor" /></p>
+
+<p><img src="/assets/img/posts/bno5500.jpg" alt="BNO sensor" /></p>
+
+<h4 id="serial-communicaton">Serial Communicaton</h4>
+
+<script src="https://gist.github.com/linzhangcs/623ccec9589cc2475bb674f2a97986b3.js"></script>
+
+<h3 id="brick-breaker---game-component">Brick Breaker - Game Component</h3>
+
+<p>Under the time constrict, we decided to build on an existing game. Our code is based on this <a href="https://github.com/James-Hynes/Breakout" target="_blank">brick breaker github repo</a>. We polished the game interface and add needed features to integrate it into our project.</p>
+
+<h4 id="interface-design">Interface Design</h4>
+
+<p><img src="/assets/img/posts/gameInterface.jpeg" alt="game interface" /></p>
+
+<h4 id="game-features">Game Features</h4>
+<p>From the the play testing feedback, we added features for a more enjoyable experience:</p>
+
+<ul>
+  <li>Serial Events - get data from pressure sensor and orientation sensor</li>
+  <li>Countdown timer</li>
+  <li>Game reset - redirect back to splash screen once a game ends</li>
+  <li>Interface update - color, font, layout</li>
+  <li>Splash screen</li>
+</ul>
+
+<h3 id="user-testing">User Testing</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1-hPAmv1omY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h4 id="feedback">Feedback</h4>
+
+<p><img src="/assets/img/posts/feedback2.png" alt="feedback" /></p>
 
 <h3 id="final-product">Final Product</h3>
 
@@ -133,11 +178,9 @@
 
 <p><img src="/assets/img/posts/seesawplay.jpg" alt="seesaw final" /></p>
 
-<h3 id="user-testing">User Testing</h3>
+<h3 id="user-testing---part-two">User Testing - Part Two</h3>
 
-<h4 id="feedback">feedback</h4>
-
-<p><img src="/assets/img/posts/feedback2.png" alt="feedback" /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8IrklmpCEk0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
   </section>
 
