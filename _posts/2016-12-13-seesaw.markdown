@@ -32,7 +32,7 @@ See_._Saw is an interactive game brings people a collaborative experience in two
 
 Before we build a full scale seesaw, we tested the project concept by conducting a play testing session of 30 users. My partner and I recorded and collected the user experience and feedback. The initial prototype utilizes items we had in the shop and used them as a representation of our project components and features. For example, the seesaw was represented by a broken workout bench and a small ladder. The LED lights on the sides of the bench are supposed to be LED strips.
 
-![prototype]({{ site.baseurl }}/assets/img/posts/prototype.jpg)
+![prototype]({{ site.baseurl }}/assets/img/posts/prototype.JPG)
 
 ![feedback]({{ site.baseurl }}/assets/img/posts/feedback1.png)
 
@@ -87,7 +87,7 @@ We used the following sensors :
 
 ### Brick Breaker - Game Component
 
-Under the time constrict, we decided to build on an existing game. Our code is based on this <a href="https://github.com/James-Hynes/Breakout" target="_blank">brick breaker github repo</a>. We polished the game interface and add needed features to integrate it into our project.
+Under the time constraint, we decided to build on an existing game. Our code is based on this <a href="https://github.com/James-Hynes/Breakout" target="_blank">brick breaker github repo</a>. We polished the game interface and add needed features to integrate it into our project.
 
 #### Interface Design
 
