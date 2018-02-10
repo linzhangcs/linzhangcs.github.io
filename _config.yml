@@ -1,7 +1,7 @@
 # Site settings
 email: lin.zhang.cs@gmail.com
 baseurl:
-paginate: 5
+paginate: 6
 paginate_path: "/blog/page-:num"
 google_analytics:
 
