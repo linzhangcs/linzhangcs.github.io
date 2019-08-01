@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<body class="loading">
+	<svg class="hidden">
+		<symbol id="icon-arrow" viewBox="0 0 24 24">
+			<title>arrow</title>
+			<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+		</symbol>
+		<symbol id="icon-nav" viewBox="0 0 407 660">
+			<title></title>
+			<path d="M77 0L0 77l253 253L0 583l77 77 330-330z"/>
+		</symbol>
+	</svg>
+	<main>
+		<p class="message">Please view on desktop to see the full layout</p>
+		<div class="frame">
+			<div class="frame__title-wrap visible__framenavs">
+				<h1 class="frame__title">Lin's recent projects</h1>
+				<div class="nav">
+					<div class="nav__arrows">
+						<button class="nav__arrow nav__arrow--prev" data-hover>
+							<svg class="icon icon--rotated icon--nav"><use xlink:href="#icon-nav"></use></svg>
+						</button>
+						<div class="nav__counter">
+							<span>0</span>/<span>0</span>
+						</div>
+						<button class="nav__arrow nav__arrow--next" data-hover>
+							<svg class="icon icon--nav"><use xlink:href="#icon-nav"></use></svg>
+						</button>
+					</div>
+				</div>
+			</div><!-- /frame__title-wrap -->
+			<div class="frame__links visible__framenavs">
+				<a href="https://github.com/linzhangcs" title="Github" target="_blank" data-hover>GitHub</a>
+				<a href="https://www.linkedin.com/in/lin-zhang-7453b639/" title="About" target="_blank" data-hover>About</a>
+				<a href="https://linzhangcs.github.io/blog/" title="Blog" target="_blank" data-hover>Blog</a>
+				<!-- <a href="about.html" title="About Me" data-hover>About</a> -->
+			</div>
+			<!-- <div class="index" data-hover>Hi there :)</div> -->
+		</div><!--/frame-->
+
+		<div class="slideshow">
+			{{content}}
+		</div><!--/slideshow-->
+
+	</main>
+	<div class="cursor">
+		<div class="cursor__inner cursor__inner--circle"></div>
+		<div class="cursor__inner cursor__inner--dot"></div>
+	</div>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/charming.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/demo.js"></script>
+</body>

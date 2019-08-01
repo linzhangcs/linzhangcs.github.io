@@ -1,0 +1,54 @@
+---
+layout: portfolio
+---
+{% for item in site.projects %}
+<div class="slide {{ item.image_layout }}" data-contentcolor="#{{ item.content_color }}">
+	<div class="slide__figure slide__figure--main" data-sort="3">
+		<div class="slide__figure-img" style="background: linear-gradient(
+      rgba({{ item.content_filtercolor_top }}),
+      rgba({{ item.content_filtercolor_btm }})
+    ), url({{ item.image_path }})  50% 50% / cover, no-repeat"></div>
+	</div>
+	<div class="slide__figure slide__figure--box" data-sort="2">
+		<div class="slide__figure-img" style="background: linear-gradient(
+      rgba({{ item.content_filtercolor_top }}),
+      rgba({{ item.content_filtercolor_btm }})
+    ), url({{ item.image_path2 }}) 50% 50% / cover, no-repeat"></div>
+	</div>
+	<div class="slide__figure slide__figure--box" data-sort="4">
+		<div class="slide__figure-img" style="background: linear-gradient(
+      rgba({{ item.content_filtercolor_top }}),
+      rgba({{ item.content_filtercolor_btm }})
+    ), url({{ item.image_path3 }}) 50% 50% / cover, no-repeat"></div>
+	</div>
+	<div class="slide__figure slide__figure--box" data-sort="1">
+		<div class="slide__figure-img" style="background: linear-gradient(
+      rgba({{ item.content_filtercolor_top }}),
+      rgba({{ item.content_filtercolor_btm }})
+    ), url({{ item.image_path4 }}) 50% 50% / cover, no-repeat"></div>
+	</div>
+	<h2 class="slide__title">{{ item.project_name }}</h2>
+	<div class="slide__text slide__text--right">
+		<p class="slide__text-meta">{{ item.category}}</p>
+		<p class="slide__text-description">{{item.project_description }}</p>
+		<a class="slide__text-link" data-hover href="{{ item.url }}">+</a>
+	</div>
+	<button class="slide__back" data-hover>
+		<svg class="icon icon--back"><use xlink:href="#icon-arrow"></use></svg>
+	</button>
+	<div class="slide__content">
+		<!-- <h3>year</h3> {{ item.year }}
+		<h3>role</h3> {{ item.role }} -->
+		{% if item.roles %}
+		<h3>Roles</h3> {{ item.roles }}
+		{% endif %}
+
+		{% if item.collaborator %}
+		<h3>collaborator</h3> {{ item.collaborator }}
+		{% endif %}
+
+		<h3>About</h3>
+		{{ item.content }}
+	</div>
+</div>
+{% endfor %}
