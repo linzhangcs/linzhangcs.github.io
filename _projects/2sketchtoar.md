@@ -12,69 +12,67 @@ image_path3: img/sketchtoar/sta3.jpg
 image_path4: img/sketchtoar/sta4.JPG
 image_layout: slide--layout-3
 category: Unity, Augmented Reality, Interaction Design
-roles: Unity Developer
+roles: Unity Developer / Creative Technologist
 year: 2019
 collaborator: Mengzhen Xiao
 ---
 Sketch to AR is an interactive experience that lets people see their sketches in a new way: translated into 3D objects in augmented reality.
 
-The experience starts with a familiar action: drawing. A participant draws an object, shows the sketch to the system, and sees a related 3D model appear in AR. The project explores how a simple creative input can become a dynamic, spatial experience through computer vision, API integration, and real-time interaction design.
+The experience starts with a familiar action: drawing. A participant draws an object, shows the sketch to the system, and sees a related 3D model appear in AR. The project explores how a simple creative input can become a dynamic spatial experience through computer vision, API integration, and real-time interaction design.
+
 <iframe src="https://player.vimeo.com/video/313726484" width="100%" height="359" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-### Why
-Sketching is one of the fastest ways for people to express an idea, but most sketch-based interfaces stop at recognition: the system guesses what the drawing is, then the interaction ends.
+### Why We Built It
+Sketching is one of the fastest ways for people to express an idea, but many sketch-based interfaces stop at recognition.
+We wanted to explore what could happen if recognition became part of a playful feedback loop. Instead of only asking whether a machine could identify a sketch correctly, we asked:
 
-We wanted to design a more generative interaction. Instead of only asking whether a machine could recognize a sketch, we asked:
+**What if a simple drawing could transform into an unexpected 3D object in AR?**
 
-> What if a sketch could become the starting point for a new spatial experience?
-
+The goal was not to create a precise 3D modeling tool. It was to make the moment of drawing feel more alive: turning a quick sketch into something people could see, react to, and talk about in physical space.
 
 ### My Role
 
-I worked as a developer, creative technologist, and project manager. My contributions included:
+I worked as a developer and creative technologist. My contributions included:
 
-- Designing the core interaction flow from sketch input to AR output
-- Building the Unity prototype with ARKit
-- Integrating Google Vision AI for sketch recognition
-- Integrating Google Poly API to search and load 3D models
-- Testing the experience with users during development and exhibition
-- Coordinating project scope, technical constraints, and exhibition readiness with my collaborator
+- Designed and implemented the flow to convert sketch input to AR output
+- Built the Unity prototype with ARKit
+- Integrated Google Vision AI for sketch recognition
+- Integrated Google Poly API to search for and load 3D models
+- Tested the experience with users during development and exhibition
+- Coordinated project scope, technical constraints, and exhibition readiness with my collaborator
 
-### Design and Engineering Challenges
+### Design Challenge
 
-The main challenge was making a multi-step technical system feel simple to the participant.
+The main challenge was making a multi-step technical system feel simple and playful to the participant.
 
-Behind the scenes, the experience involved image capture, sketch recognition, API querying, 3D model loading, and AR placement. For the user, we wanted the interaction to feel lightweight: draw something, show it to the system, and see the result.
+Behind the scenes, the experience involved image capture, sketch recognition, API querying, 3D model loading, and AR placement. But for the user, we wanted the interaction to feel lightweight:
 
-This required thinking through:
-- How to guide people without over-explaining the technology
-- How to handle imperfect or surprising recognition results
-- How to translate a 2D input into a meaningful 3D spatial response
-- How to make the prototype stable enough for a public exhibition environment
+**Draw something. Show it to the system. See the result appear in space.**
 
-### How
+It was about shaping the interaction so people could understand it quickly, try it without hesitation, and enjoy the surprise of the result.  
 
-Sketch to AR was built using ARKit in Unity. It used Google [Vision AI API](https://cloud.google.com/vision/#industry-leading-accuracy-for-image-understanding) for identifying the sketches, and Google [Poly API](https://developers.google.com/poly/develop/) for querying and loading 3D objects into the AR scene.
-Here is more info on the [making process](https://linzhangcs.github.io/blog//2018/10/31/sketchTo3D/) if you are interested.
+![kids trying out sketch to ar]({{ site.url }}/img/sketchtoar/kidtrying.jpg)
 
-### Exhibition and Learnings
+### How It Worked
 
-Sketch to AR was selected for ITP/IMA Spring Show 2019. Over 200 people tried it over a period of two days, 8 hours in total. Out those 200 people, some are curious kids with their parents, students and professionals in the creative fields, some are developers who worked on Poly API. We even had Professor Clay Shirky and the NYU president Andrew D. Hamilton trying it out.
+Sketch to AR was built with Unity and ARKit. It used Google Vision AI to identify sketches and the Google Poly API to search for and load related 3D objects into the AR scene.
+I wrote more about the making process in this [blog entry](https://linzhangcs.github.io/blog/2018/10/31/sketchTo3D/) if you're interested in learning more.
+
+### Exhibition & Learnings
+
+Sketch to AR was selected for the ITP/IMA Spring Show 2019. More than 200 people tried the experience over two days, including children with parents, students, creative professionals, developers, Professor Clay Shirky, and NYU President Andrew D. Hamilton.
+
 Watching people use the prototype helped us understand that the most interesting moments were not always the perfectly accurate results. Sometimes the system interpreted a sketch differently than the participant expected, and that mismatch created surprise, humor, and conversation.
-
-This became an important design insight: in playful AI-assisted interfaces, imperfection does not always have to be hidden. When framed well, it can become part of the interaction.
 
 ![Haiyi and Vidia]({{ site.url }}/img/sketchtoar/sta3.jpg)
 
 ![group of people trying sketch to ar]({{ site.url }}/img/sketchtoar/group.jpg)
 
-![kids trying out sketch to ar]({{ site.url }}/img/sketchtoar/kidtrying.jpg)
-
 ![NYU president Hamilton trying it out]({{ site.url }}/img/sketchtoar/nyu_president_hamilton.jpg)
 
-![clay]({{ site.url }}/img/sketchtoar/IMG_8510.JPG)
+![Professor Clay Shirky trying Sketch to AR]({{ site.url }}/img/sketchtoar/IMG_8510.JPG)
 
-![clay]({{ site.url }}/img/sketchtoar/clay.JPG)
+![Professor Clay Shirky trying Sketch to AR]({{ site.url }}/img/sketchtoar/clay.JPG)
 
 ![bike]({{ site.url }}/img/sketchtoar/bike.jpg)
 
