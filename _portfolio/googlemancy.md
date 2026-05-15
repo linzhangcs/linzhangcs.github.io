@@ -1,13 +1,52 @@
 ---
 layout: portfolio
 project_name: Googlemancy
-project_description: Thoughts in time and out of season. The Hitchhiker stood by the side of the road and leveled his thumb in the calm calculus of reason. Hi. How you doin’?
-link: https://www.bathandbodyworks.com/p/eucalyptus-spearmint-3-wick-candle-023740019.html
-image_path: https://www.bathandbodyworks.com/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc8a03e29/hires/023740019.jpg?sh=471
-image_layout: slide--layout-1
-category: Web Design
+project_description: Googlemancy is a portal to digital divination. It combines modern technologies with ancient religious rituals.
+link:
+content_color: fee7a9
+content_filtercolor_top: 121, 85, 72, 0.3
+content_filtercolor_btm: 220, 204, 198, 0.3
+image_path: img/googlemancy/googlemancy.jpg
+image_path3: img/googlemancy/IMG_7236_2.jpg
+image_path2: img/googlemancy/IMG_5305_2.jpg
+image_path4: img/googlemancy/IMG_0574_2.jpg
+role: Physical computing
+image_layout: slide--layout-5
+category: Physical Computing | Website
 ---
-This is my candle!!!
-They would all have been delighted to have little Elfie with them in these last hours, but the fond grandfather could not spare her, and one of the girls, who had a message to deliver to Mrs. Abbott in the parlor, reported that the child lay fast asleep in Mr. Bellamy’s arms, while he was trying, at great inconvenience to himself, to write letters at a table, and black Candace sat patiently in the hall waiting for the long-delayed summons to put her little missy to bed.</p>
-<p>It was late when the day scholars went home, and the others went up-stairs to their rooms very quietly. They all had to pass the large corner room which was always given to visitors, and, although the light was turned very low, they could see through the half-closed door that Candace was trying to undress the little girl without waking her, and the senator, whose broad back was toward the door, was bending down to unbutton the little shoes, one of which he lifted and pressed to his lips just as the last pair of girls went by.
-The collector of old silver must have a pretty taste and a fine judgment. It is not an absolute law that age determines beauty. Hall-marks, though they denote date, do not guarantee excellence of design. Everything that bears the hall-mark of the Goldsmiths’ Hall of London is not beautiful, whether it be old or whether it be new. The connoisseur must digest the fact that the assay marks of the lion, the leopard’s head, the date-mark, and the rest, are so many official symbols, accurate as to date and sufficient guarantee as to the standard of the metal, but meaningless in regard to the art of the piece on which they stand. The assay offices are merely stamping machines. What Somerset House is to legal documents so the assay offices are to silver and gold plate, and nothing more. Hence the necessity of placing such mechanical control under Government supervision.
+Googlemancy is a portal to digital divination. It combines modern technologies with ancient religious rituals. When you enter the portal, it asks you to think of a question to ask. With that question in mind, you type your question into the portal, along with your date of birth and a deep bow as a form of prayer. Once you have prayed hard enough, your question will be send over to Google. Google will answer it with its deep wisdom in the form of a poem. You need to decipher its meaning for yourself.
+
+### Why
+
+The suffix -mancy means *divination by a specified means*, so Googlemancy means the belief in harness the magical forces of Google to produce prophecy. This project was inspired by Google's *I'm feeling lucky* option. It reminded me of [Bibliomancy](https://en.wikipedia.org/wiki/Bibliomancy), which is the practice of opening a sacred book to see an answer to a question.
+
+In an age where we use Google to find answers to any questions popped into mind, we forgot or have never known life without its convenience. What do we trade for this convenience? Googlemancy explores the idea when Google search engine is no longer a friendly assistant, but a new religion.
+
+<iframe width="100%" height="425" src="https://www.youtube.com/embed/gFr1vpiJ9ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### How
+
+Googlemancy inconsist of two parts: a website and a wearable prayer device. The website was built using Javascript - retrieve data, parse website source code, and generate poem. The website introduction content was from [Church of Google's prayer section](http://churchofgoogle.org/google_prayers.html).   
+
+The prayer device was built with Arduino MRK1000, mini vibration motor, gyroscope, resistors, and wires soldered onto a protoboard, and sew onto a stretchy harness.
+
+Here is more info on the [making process](https://linzhangcs.github.io/blog//2018/05/08/googlemancywearable/).
+
+### Exhibition
+
+Googlemancly was installed at [New York Hall of Science](https://nysci.org/) as part of [World Maker Faire New York 2018](https://makerfaire.com/new-york/).
+
+There were different reactions to this project. Some people were intrigued; some were weird out. Some people started a long discussion with friends on the spot. Also it was interesting to see everyone defaults a way of praying - seeing someone kneeled down in front of a computer was something indescribable.
+
+#### Reactions
+![wearable closeup]({{ site.url }}/img/googlemancy/IMG_0574_2.jpg)
+![Discussion on the output poem]({{ site.url }}/img/googlemancy/IMG_3296.jpg)
+![reaction]({{ site.url }}/img/googlemancy/IMG_2453.jpg)
+![reaction]({{ site.url }}/img/googlemancy/IMG_6490.jpg)
+![reaction]({{ site.url }}/img/googlemancy/IMG_6908.jpg)
+
+#### Prayers
+![prayers]({{ site.url }}/img/googlemancy/IMG_2067_2.jpg)
+![prayers]({{ site.url }}/img/googlemancy/IMG_5019_2.jpg)
+![prayers]({{ site.url }}/img/googlemancy/IMG_6022.jpg)
+![prayers]({{ site.url }}/img/googlemancy/IMG_6208.jpg)
