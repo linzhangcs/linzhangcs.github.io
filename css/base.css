@@ -588,7 +588,7 @@ button:focus, a:focus {
 .slide__content {
   opacity: 0;
   font-size: 1.15rem;
-  text-align: justify;
+  line-height: 1.4;
   padding: 2rem 0;
   grid-area: 5 / 1 / span 1 / span 2;
   color: var(--color-content);
@@ -606,10 +606,10 @@ button:focus, a:focus {
 }
 
 .slide__content h3 {
-  /* display: inline-block; */
   font-size: 1.2rem;
+  letter-spacing: 0.04rem;
   font-family: "DM Serif Display", serif;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 .slide__back {
