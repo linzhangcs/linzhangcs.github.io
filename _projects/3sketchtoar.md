@@ -3,7 +3,7 @@ layout: portfolio
 project_name: Sketch to AR
 project_description: Sketch to AR is an interactive experience that turns hand-drawn sketches into 3D objects in augmented reality.
 link:
-content_color: fdd7b8
+content_color: f0deb7
 content_filtercolor_top: 121, 85, 72, 0.3
 content_filtercolor_btm: 220, 204, 198, 0.3
 image_path: img/sketchtoar/sta5.JPG
@@ -11,7 +11,7 @@ image_path2: img/sketchtoar/sta2.JPG
 image_path3: img/sketchtoar/sta3.jpg
 image_path4: img/sketchtoar/sta4.JPG
 image_layout: slide--layout-3
-category: Unity, Augmented Reality, Interaction Design
+category: Augmented Reality | Interaction Design | Unity
 roles: Unity Developer / Creative Technologist
 year: 2019
 collaborator: Mengzhen Xiao

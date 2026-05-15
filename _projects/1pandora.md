@@ -3,7 +3,7 @@ layout: portfolio
 project_name: Pandora
 project_description: Pandora was an internal secrets management tool used by 10,000+ Ubisoft employees across North America and Europe.
 link:
-content_color: e4ebf7
+content_color: fcfcfd
 content_filtercolor_top: 224, 133, 99, 0.0
 content_filtercolor_btm: 220, 204, 198, 0.0
 image_path: img/pandora/landing-page.png
@@ -21,7 +21,7 @@ The product supported **9 secret types** and role-based sharing controls, includ
 
 Before Pandora, secrets were often managed through scattered documents, chats, spreadsheets, or paper. This made access control inconsistent, slowed teams down, and increased security risk.
 
-Pandora created a safer, more structured workflow for managing sensitive information — making secure behavior easier for employees to adopt in everyday work.
+Pandora created a safer, more structured workflow for managing sensitive information: making secure behavior easier for employees to adopt in everyday work.
 
 ### My Role
 
@@ -35,8 +35,6 @@ I helped lead frontend development for core product flows and partnered with des
 - **Understanding details:** secret detail panel for quick inspection without losing context
 - **Creating and updating secrets:** flows for multiple secret types and editing sensitive information
 - **Sharing safely:** role/group-based permissions UX for viewer, editor, and admin access
-- **Building consistently:** shared UI patterns for maintainability, accessibility, and product consistency
-
 
 ### UX Decision: Detail Panel vs. Detail Page
 While building the secrets detail flow, we realized the table needed to remain the user’s main workspace, not just a starting point. Users often needed to inspect a secret, check metadata, copy information, or review sharing details while staying oriented in the table/folder view.
